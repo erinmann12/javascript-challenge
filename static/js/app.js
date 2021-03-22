@@ -47,4 +47,20 @@ function filterDate() {
 
   console.log(filterData);
 
+  tbody.html("")
+
+  //create the table again using filterData
+  filterData.forEach(function(filterReport) {
+    console.log(filterReport);
+    var row = tbody.append("tr");
+    Object.entries(filterReport).forEach(function([key, value]) {
+      console.log(key, value);
+      // Append a cell to the row for each value
+      // in the weather report object
+      var cell = row.append("td");
+      cell.text(value);
+      });
+  });
 }
+
+
