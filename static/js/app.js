@@ -12,7 +12,9 @@ tableData.forEach(function(ufoReport) {
     console.log(ufoReport);
     var row = tbody.append("tr");
     Object.entries(ufoReport).forEach(function([key, value]) {
-      console.log(key, value);
+      
+      //console.log to check keys and values
+      // console.log(key, value);
       // Append a cell to the row for each value
       // in the ufo report object
       var cell = row.append("td");
@@ -45,7 +47,8 @@ function filterDate() {
   // Use the form input to filter the data by date
   var filterData = tableData.filter(ufo => ufo.datetime == inputValue);
 
-  console.log(filterData);
+  // check to make sure you got the data you want
+  // console.log(filterData);
 
   tbody.html("")
 
