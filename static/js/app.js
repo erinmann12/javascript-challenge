@@ -14,7 +14,7 @@ tableData.forEach(function(ufoReport) {
     Object.entries(ufoReport).forEach(function([key, value]) {
       console.log(key, value);
       // Append a cell to the row for each value
-      // in the weather report object
+      // in the ufo report object
       var cell = row.append("td");
       cell.text(value);
     });
