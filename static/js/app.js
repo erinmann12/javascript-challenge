@@ -6,7 +6,7 @@ var tableData = data;
 var tbody = d3.select("tbody");
 
 // // Console.log the ufo data from data.js
-console.log(tableData);
+// console.log(tableData);
 
 tableData.forEach(function(ufoReport) {
     console.log(ufoReport);
@@ -56,7 +56,7 @@ function filterDate() {
     Object.entries(filterReport).forEach(function([key, value]) {
       console.log(key, value);
       // Append a cell to the row for each value
-      // in the weather report object
+      // in the ufo report object
       var cell = row.append("td");
       cell.text(value);
       });
