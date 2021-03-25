@@ -42,7 +42,8 @@ function filterDate() {
   // Get the value property of the input element
   var inputValue = inputElement.property("value");
 
-  // console.log(inputValue);
+  // check that you got the right value
+  console.log(inputValue);
 
   // Use the form input to filter the data by date
   var filterData = tableData.filter(ufo => ufo.datetime == inputValue);
