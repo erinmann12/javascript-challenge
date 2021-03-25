@@ -9,7 +9,7 @@ var tbody = d3.select("tbody");
 // console.log(tableData);
 
 tableData.forEach(function(ufoReport) {
-    console.log(ufoReport);
+    // console.log(ufoReport);
     var row = tbody.append("tr");
     Object.entries(ufoReport).forEach(function([key, value]) {
       
@@ -54,10 +54,12 @@ function filterDate() {
 
   //create the table again using filterData
   filterData.forEach(function(filterReport) {
-    console.log(filterReport);
+    // console.log(filterReport);
     var row = tbody.append("tr");
     Object.entries(filterReport).forEach(function([key, value]) {
-      console.log(key, value);
+      
+      // check key, value data
+      //console.log(key, value);
       // Append a cell to the row for each value
       // in the ufo report object
       var cell = row.append("td");
