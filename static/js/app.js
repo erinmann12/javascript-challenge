@@ -20,7 +20,7 @@ tableData.forEach(function(ufoReport) {
     });
 });
 
-// Select the button
+// Select the button with reference to HTML button id
 var button = d3.select("#filter-btn");
 
 // Create event handlers 
