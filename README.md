@@ -6,6 +6,8 @@ For this project, we were tasked by the fictional company ALIENS-R-REAL to write
 
 <img src="C:\Users\erinc\Desktop\initialtableload.PNG" alt="initialtableload" style="zoom:50%;" />
 
-In the final step, we used a date form in the HTML document to write JavaScript cod that will listen for events and search through hte date/time column to find rows that match user input.
+In the final step, we used a date form in the HTML document to write JavaScript cod that will listen for events and search through the date/time column to find rows that match user input.
+
+![filteredsearch](C:\Users\erinc\Desktop\filteredsearch.PNG)
 
 The languages we used for the project were JavaScript, HTML, CSS, and D3.js. 
