@@ -9,7 +9,7 @@ var tbody = d3.select("tbody");
 // console.log(tableData);
 
 tableData.forEach(function(ufoReport) {
-    // console.log(ufoReport);
+    console.log(ufoReport);
     var row = tbody.append("tr");
     Object.entries(ufoReport).forEach(function([key, value]) {
       
@@ -37,7 +37,7 @@ function filterDate() {
   // Select the input element and get the raw HTML node
   var inputElement = d3.select("#datetime");
 
-  // console.log(inputElement);
+  console.log(inputElement);
 
   // Get the value property of the input element
   var inputValue = inputElement.property("value");
@@ -48,7 +48,7 @@ function filterDate() {
   var filterData = tableData.filter(ufo => ufo.datetime == inputValue);
 
   // check to make sure you got the data you want
-  // console.log(filterData);
+  console.log(filterData);
 
   tbody.html("")
 
