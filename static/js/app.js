@@ -1,4 +1,4 @@
-// from data.js
+// read in data from data.js
 var tableData = data;
 
 // when page loads, show data
@@ -6,7 +6,7 @@ var tableData = data;
 var tbody = d3.select("tbody");
 
 // // Console.log the ufo data from data.js
-// console.log(tableData);
+console.log(tableData);
 
 tableData.forEach(function(ufoReport) {
     console.log(ufoReport);
